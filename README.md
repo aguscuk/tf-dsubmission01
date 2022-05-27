@@ -13,7 +13,7 @@ project                 = "your_project_id"
 region                  = "your_region"
 ```
 
-
+---
 - 2nd, using cloudsql-proxy
 wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
 ```
