@@ -14,7 +14,8 @@ region                  = "your_region"
 
 ### 2nd, using cloudsql-proxy
 wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
-
+```
 cloud_sql_proxy -dir /tmp/cloudsql \
 -instances=$project:$region:[database name]=tcp:3306 \
 -credential_file=[service account credential]
+```
